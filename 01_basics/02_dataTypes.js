@@ -3,7 +3,7 @@
 //alert( ) no use we are using node.js not browser
 
 let val;
-console.log(val);
+console.log(val);//undefined
 
 let num = null;
 console.log(num);

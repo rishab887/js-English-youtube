@@ -32,5 +32,32 @@ let booleanIsloggesIn = Boolean(isloggedIN)
 
 let stringnumber = 33
 let newString = String(stringnumber)
-console.log(newString)
-console.log(typeof newString)
+// console.log(newString)
+// console.log(typeof newString)
+
+//string concatenation
+let st1 = "Hello"
+let st2 = " World"
+let st3 = st1 + st2;
+// console.log(st3);
+
+// console.log("1" + 2)//12
+// console.log(1 + "2")//12
+// console.log("1" + 2 + 2)//122 which ever conversion first comes get executed in here string hence all of the numbers get concatenated
+// console.log(1 + 2 + "2")//32 in here the first number is integer hence the it first get sum up with two then concat with string 3;
+
+// console.log(true) // give true
+// console.log(+true) //gives 1
+// console.log(+"")//gives 0
+
+// console.log(null > 0)//false
+// console.log(null >= 0)//true
+// /*as above are the comparsion operator hence they convert the null to a value as 0 and then compare 
+// it so 0 > 0 false and 0 >= 0 true;
+// */
+
+// console.log(null == 0) // this is not a comparison operator so it shows false;
+
+console.log(undefined > 0)
+console.log(undefined < 0)
+console.log(undefined == 0)
