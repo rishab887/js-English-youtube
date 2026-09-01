@@ -20,6 +20,6 @@ object
 */
 
 console.log(typeof val)
-console.log(typeof num)
+console.log(typeof num)//object
 console.log(typeof "rishabh")
 console.log(typeof 0.34)
